@@ -2,3 +2,4 @@ __pycache__/
 Dockerfile
 secret.key
 TODO.md
+*.db
