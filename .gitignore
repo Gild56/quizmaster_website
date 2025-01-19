@@ -1,4 +1,4 @@
 __pycache__/
 secret.key
 TODO.md
-*.db
+site_copy.db
