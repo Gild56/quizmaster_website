@@ -49,3 +49,9 @@
     padding: 0.2em !important;
     margin-bottom: 0.5em;
 }
+
+.fit {
+    width: 30px !important;
+    height: 30px !important;
+    transform: translateY(15px);
+}

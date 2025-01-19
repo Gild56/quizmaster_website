@@ -34,9 +34,11 @@
                     <form method="post" action="{{ url_for('log_in') }}" class="margin-bottom">
                         <h1>Logging In:</h1>
                         <p><input type="text" id="login" name="input_login" placeholder="Login" required></p>
-                        <p>
+                        <p class="row"">
                             <input type="password" id="password" name="input_password" placeholder="Password" minlength="5" required>
-                            <button type="button" id="togglePassword">👁️</button>
+                            <button type="button" id="togglePassword" class="fit">
+                                <img height="30px" src="{{ url_for('static', filename='images/hide-password.png') }}" alt="Hide password" id="passwordIcon">
+                            </button>
                         </p>
                         {% if error_message %}
                             <p class="red">{{ error_message }}</p>
