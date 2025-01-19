@@ -3,7 +3,7 @@ WORKDIR /mnt
 
 RUN apt-get install xclip
 # Install required packages from requirements.py during build
-RUN pip install -r requirements.txt
+RUN pip install pyperclip unidecode flask
 
 EXPOSE 5000
 VOLUME [ "/mnt/site.db" ]
