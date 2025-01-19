@@ -7,3 +7,9 @@ You need to set a secret key (just a secret.key file in the root folder) before 
 ## Docker
 
 We built a special docker image for running with special embeded python.
+
+## Website
+
+The current version of the Quizmaster Website is hosted [here](https://misha.devatlant.com).
+
+Feel free to make a post :3
