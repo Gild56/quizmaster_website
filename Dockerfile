@@ -1,4 +1,4 @@
-debiFROM python:3.11.11
+FROM python:3.11.11
 WORKDIR /mnt
 
 COPY requirements.txt /mnt/requirements.txt
