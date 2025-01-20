@@ -364,4 +364,4 @@ def user_profile(profile):
     )
 
 
-app.run(debug=True)
+app.run()
