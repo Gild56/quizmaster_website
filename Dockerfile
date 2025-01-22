@@ -1,10 +1,11 @@
-FROM python:3.11.11-alpine
+FROM python:3.11.11
 WORKDIR /mnt
 
+COPY requirements.txt /mnt/requirements.txt
 # Install required packages during build
-RUN apt-get install xclip
+RUN apt-get update && apt-get install -y xclip
 RUN pip install -r requirements.txt
 
 EXPOSE 5000
-VOLUME [ "/mnt/site.db" ]
+VOLUME [ "/mnt/" ]
 CMD ["python", "app.py"]
