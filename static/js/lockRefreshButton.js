@@ -6,7 +6,7 @@ document.addEventListener('scroll', function () {
     const buttonHeight = refreshButton.offsetHeight;
 
     if (footerTop - window.innerHeight <= buttonHeight - 50) {
-      const offset = buttonHeight - (footerTop - window.innerHeight) - 50;
-      refreshButton.style.bottom = `${offset}px`;
+        const offset = buttonHeight - (footerTop - window.innerHeight) - 50;
+        refreshButton.style.bottom = `${offset}px`;
     }
-  });
+});
